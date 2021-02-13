@@ -209,7 +209,7 @@ public class GameMaster {
 	}
 
 	public void playerMoved(Player player) {
-		Cell cell = player.getPosition();
+		IOwnable cell = player.getPosition();
 		int playerIndex = getPlayerIndex(player);
 		if(cell instanceof CardCell) {
 		    gui.setDrawCardEnabled(true);
