@@ -6,7 +6,7 @@ public interface IOwnable {
 
 	int getPrice();
 
-	void playAction();
+	Boolean playAction(String msg);
 
 	void setTheOwner(Player owner);
 
